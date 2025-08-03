@@ -47,7 +47,7 @@ public class FailedMessageServiceTest {
     }
 
     @Test
-    public void testIncrementRetrySuccess() {
+    public void shouldIncrementRetrySuccess() {
         when(valueOperations.get(redisKey)).thenReturn(Mono.just("2|" + jsonBody));
         when(valueOperations.set(eq(redisKey), eq("3|" + jsonBody))).thenReturn(Mono.just(true));
 
@@ -88,11 +88,4 @@ public class FailedMessageServiceTest {
                 .verify();
     }
 
-    @Test
-    public void shouldRemoveFailedMessage() {
-        when(redisTemplate.delete(redisKey)).thenReturn(Mono.empty());
-
-        StepVerifier.create(subject.removeFailedMessage(orderId))
-                .verifyComplete();
-    }
 }

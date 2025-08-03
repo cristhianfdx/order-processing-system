@@ -166,6 +166,24 @@ This project provides web UIs for easier visualization and debugging:
 
 You can use these tools to inspect databases, queues, and messages while the system is running.
 
+## 🧪 Unit Tests
+
+**Java Worker**
+
+```bash
+
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.845 s
+[INFO] Finished at: 2025-08-02T22:38:36-05:00
+[INFO] ------------------------------------------------------------------------
+```
+
 ## 📄 Evidence of Functionality
 
 This repository includes a PDF document with screenshots and logs that demonstrate the correct behavior of both the `go-api` and `order-worker` components.

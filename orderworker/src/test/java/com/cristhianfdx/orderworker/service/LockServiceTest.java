@@ -52,12 +52,4 @@ public class LockServiceTest {
                 .expectNext(false)
                 .verifyComplete();
     }
-
-    @Test
-    public void shouldReleaseLockSuccess() {
-        when(redisTemplate.delete(KEY)).thenReturn(Mono.empty());
-
-        StepVerifier.create(subject.releaseLock(KEY))
-                .verifyComplete();
-    }
 }

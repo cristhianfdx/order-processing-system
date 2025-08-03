@@ -4,8 +4,6 @@ import com.cristhianfdx.orderworker.dto.CustomerDTO;
 import com.cristhianfdx.orderworker.dto.CustomerStatusEnum;
 import com.cristhianfdx.orderworker.dto.OrderMessageDTO;
 import com.cristhianfdx.orderworker.dto.ProductDTO;
-import com.cristhianfdx.orderworker.exceptions.InactiveCustomerException;
-import com.cristhianfdx.orderworker.exceptions.OrderAlreadyExists;
 import com.cristhianfdx.orderworker.model.Order;
 import com.cristhianfdx.orderworker.model.Product;
 import com.cristhianfdx.orderworker.provider.EnrichmentClient;
