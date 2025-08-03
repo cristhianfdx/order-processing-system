@@ -1,0 +1,92 @@
+definitions:
+  model.Customer:
+    properties:
+      email:
+        type: string
+      id:
+        type: string
+      name:
+        type: string
+      status:
+        $ref: '#/definitions/model.CustomerStatus'
+    type: object
+  model.CustomerStatus:
+    enum:
+    - ACTIVE
+    - INACTIVE
+    - SUSPENDED
+    type: string
+    x-enum-varnames:
+    - Active
+    - Inactive
+    - Suspended
+  model.ErrorResponse:
+    properties:
+      message:
+        type: string
+    type: object
+  model.Product:
+    properties:
+      description:
+        type: string
+      id:
+        type: string
+      name:
+        type: string
+      price:
+        type: number
+    type: object
+info:
+  contact: {}
+paths:
+  /api/customers/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Get Customer data by Customer ID
+      parameters:
+      - description: Customer ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Customer'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/model.ErrorResponse'
+      summary: Get Customer by ID
+      tags:
+      - Customers
+  /api/products/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Get Product data by ID
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Product'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/model.ErrorResponse'
+      summary: Get Produdt by ID
+      tags:
+      - Products
+swagger: "2.0"

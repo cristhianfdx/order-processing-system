@@ -1,0 +1,302 @@
+[
+  {
+    "id": "product-1",
+    "name": "Laptop",
+    "description": "ASUS 16 inches",
+    "price": 1500.0
+  },
+  {
+    "id": "product-2",
+    "name": "Mouse",
+    "description": "Genius",
+    "price": 25.99
+  },
+  {
+    "id": "product-3",
+    "name": "Keyboard",
+    "description": "Mechanical RGB Keyboard",
+    "price": 79.99
+  },
+  {
+    "id": "product-4",
+    "name": "Monitor",
+    "description": "27-inch 4K UHD",
+    "price": 299.99
+  },
+  {
+    "id": "product-5",
+    "name": "Smartphone",
+    "description": "Android 128GB",
+    "price": 699.0
+  },
+  {
+    "id": "product-6",
+    "name": "Tablet",
+    "description": "10-inch, Wi-Fi only",
+    "price": 249.99
+  },
+  {
+    "id": "product-7",
+    "name": "Webcam",
+    "description": "1080p HD camera",
+    "price": 49.99
+  },
+  {
+    "id": "product-8",
+    "name": "Headphones",
+    "description": "Bluetooth noise-cancelling",
+    "price": 199.0
+  },
+  {
+    "id": "product-9",
+    "name": "Printer",
+    "description": "Wireless All-in-One",
+    "price": 89.99
+  },
+  {
+    "id": "product-10",
+    "name": "Router",
+    "description": "Dual-band WiFi 6",
+    "price": 129.99
+  },
+  {
+    "id": "product-11",
+    "name": "USB-C Hub",
+    "description": "Multiport Adapter",
+    "price": 34.99
+  },
+  {
+    "id": "product-12",
+    "name": "External HDD",
+    "description": "1TB USB 3.0",
+    "price": 59.99
+  },
+  {
+    "id": "product-13",
+    "name": "External SSD",
+    "description": "500GB NVMe",
+    "price": 89.0
+  },
+  {
+    "id": "product-14",
+    "name": "Graphics Card",
+    "description": "NVIDIA RTX 3060",
+    "price": 379.99
+  },
+  {
+    "id": "product-15",
+    "name": "RAM",
+    "description": "16GB DDR4",
+    "price": 79.99
+  },
+  {
+    "id": "product-16",
+    "name": "Power Bank",
+    "description": "10000mAh Fast Charge",
+    "price": 29.99
+  },
+  {
+    "id": "product-17",
+    "name": "Smartwatch",
+    "description": "Fitness Tracker",
+    "price": 149.99
+  },
+  {
+    "id": "product-18",
+    "name": "Desk Lamp",
+    "description": "LED, Adjustable",
+    "price": 24.5
+  },
+  {
+    "id": "product-19",
+    "name": "Ergonomic Chair",
+    "description": "Mesh back support",
+    "price": 199.0
+  },
+  {
+    "id": "product-20",
+    "name": "Standing Desk",
+    "description": "Adjustable height",
+    "price": 349.99
+  },
+  {
+    "id": "product-21",
+    "name": "Speakers",
+    "description": "Bluetooth Stereo",
+    "price": 69.99
+  },
+  {
+    "id": "product-22",
+    "name": "Microphone",
+    "description": "USB Podcast Mic",
+    "price": 89.0
+  },
+  {
+    "id": "product-23",
+    "name": "Game Controller",
+    "description": "Wireless Gamepad",
+    "price": 59.99
+  },
+  {
+    "id": "product-24",
+    "name": "VR Headset",
+    "description": "Standalone with controllers",
+    "price": 399.0
+  },
+  {
+    "id": "product-25",
+    "name": "Projector",
+    "description": "HD, 3000 lumens",
+    "price": 229.0
+  },
+  {
+    "id": "product-26",
+    "name": "Surge Protector",
+    "description": "6-outlet power strip",
+    "price": 19.99
+  },
+  {
+    "id": "product-27",
+    "name": "Smart Plug",
+    "description": "Wi-Fi enabled",
+    "price": 14.99
+  },
+  {
+    "id": "product-28",
+    "name": "Streaming Stick",
+    "description": "4K Media Player",
+    "price": 49.99
+  },
+  {
+    "id": "product-29",
+    "name": "HDMI Cable",
+    "description": "6ft 4K Compatible",
+    "price": 9.99
+  },
+  {
+    "id": "product-30",
+    "name": "Laptop Stand",
+    "description": "Aluminum adjustable",
+    "price": 39.99
+  },
+  {
+    "id": "product-31",
+    "name": "Cooling Pad",
+    "description": "For laptops up to 17\"",
+    "price": 27.99
+  },
+  {
+    "id": "product-32",
+    "name": "Stylus Pen",
+    "description": "For touchscreens",
+    "price": 12.99
+  },
+  {
+    "id": "product-33",
+    "name": "Wireless Charger",
+    "description": "Qi certified pad",
+    "price": 18.99
+  },
+  {
+    "id": "product-34",
+    "name": "Laptop Backpack",
+    "description": "Water-resistant 15\"",
+    "price": 45.0
+  },
+  {
+    "id": "product-35",
+    "name": "Ethernet Cable",
+    "description": "Cat6, 10ft",
+    "price": 7.49
+  },
+  {
+    "id": "product-36",
+    "name": "Flash Drive",
+    "description": "64GB USB 3.1",
+    "price": 11.99
+  },
+  {
+    "id": "product-37",
+    "name": "Docking Station",
+    "description": "Multiport USB-C",
+    "price": 129.0
+  },
+  {
+    "id": "product-38",
+    "name": "Graphics Tablet",
+    "description": "Drawing pad with pen",
+    "price": 89.99
+  },
+  {
+    "id": "product-39",
+    "name": "Card Reader",
+    "description": "SD/TF USB 3.0",
+    "price": 15.0
+  },
+  {
+    "id": "product-40",
+    "name": "Cable Organizer",
+    "description": "Clips and sleeves",
+    "price": 8.99
+  },
+  {
+    "id": "product-41",
+    "name": "Laser Pointer",
+    "description": "Red beam presenter",
+    "price": 22.99
+  },
+  {
+    "id": "product-42",
+    "name": "Portable Speaker",
+    "description": "Waterproof outdoor",
+    "price": 59.0
+  },
+  {
+    "id": "product-43",
+    "name": "Smart Bulb",
+    "description": "Color-changing LED",
+    "price": 16.5
+  },
+  {
+    "id": "product-44",
+    "name": "Power Strip Tower",
+    "description": "USB ports included",
+    "price": 36.99
+  },
+  {
+    "id": "product-45",
+    "name": "Noise Meter",
+    "description": "Digital decibel meter",
+    "price": 29.5
+  },
+  {
+    "id": "product-46",
+    "name": "Barcode Scanner",
+    "description": "USB handheld",
+    "price": 55.0
+  },
+  {
+    "id": "product-47",
+    "name": "Thermal Printer",
+    "description": "Label printer",
+    "price": 139.0
+  },
+  {
+    "id": "product-48",
+    "name": "Whiteboard",
+    "description": "Magnetic, 36x24 inches",
+    "price": 49.99
+  },
+  {
+    "id": "product-49",
+    "name": "Desk Organizer",
+    "description": "5-compartment tray",
+    "price": 21.0
+  },
+  {
+    "id": "product-50",
+    "name": "Pen Tablet",
+    "description": "Digital graphic input",
+    "price": 119.99
+  }
+]

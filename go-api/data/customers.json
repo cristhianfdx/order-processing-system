@@ -1,0 +1,302 @@
+[
+  {
+    "id": "customer-1",
+    "name": "John Doe",
+    "email": "john1@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-2",
+    "name": "Jane Smith",
+    "email": "jane2@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-3",
+    "name": "Bob Johnson",
+    "email": "bob3@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-4",
+    "name": "Alice Brown",
+    "email": "alice4@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-5",
+    "name": "Charlie Davis",
+    "email": "charlie5@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-6",
+    "name": "Eva Adams",
+    "email": "eva6@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-7",
+    "name": "George Martin",
+    "email": "george7@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-8",
+    "name": "Hannah Lee",
+    "email": "hannah8@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-9",
+    "name": "Ian Clark",
+    "email": "ian9@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-10",
+    "name": "Julia Lewis",
+    "email": "julia10@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-11",
+    "name": "Kevin Young",
+    "email": "kevin11@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-12",
+    "name": "Laura Hill",
+    "email": "laura12@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-13",
+    "name": "Mike Scott",
+    "email": "mike13@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-14",
+    "name": "Nina Green",
+    "email": "nina14@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-15",
+    "name": "Oscar Hall",
+    "email": "oscar15@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-16",
+    "name": "Paula Turner",
+    "email": "paula16@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-17",
+    "name": "Quentin Allen",
+    "email": "quentin17@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-18",
+    "name": "Rachel White",
+    "email": "rachel18@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-19",
+    "name": "Steve Harris",
+    "email": "steve19@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-20",
+    "name": "Tina Walker",
+    "email": "tina20@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-21",
+    "name": "Uma Robinson",
+    "email": "uma21@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-22",
+    "name": "Victor Wood",
+    "email": "victor22@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-23",
+    "name": "Wendy Price",
+    "email": "wendy23@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-24",
+    "name": "Xavier James",
+    "email": "xavier24@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-25",
+    "name": "Yara Bennett",
+    "email": "yara25@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-26",
+    "name": "Zachary Collins",
+    "email": "zach26@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-27",
+    "name": "Amber Murphy",
+    "email": "amber27@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-28",
+    "name": "Brian Bailey",
+    "email": "brian28@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-29",
+    "name": "Cathy Sanders",
+    "email": "cathy29@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-30",
+    "name": "Derek Ramirez",
+    "email": "derek30@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-31",
+    "name": "Ella Cruz",
+    "email": "ella31@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-32",
+    "name": "Frank Ortiz",
+    "email": "frank32@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-33",
+    "name": "Grace Hughes",
+    "email": "grace33@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-34",
+    "name": "Henry Russell",
+    "email": "henry34@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-35",
+    "name": "Isla Griffin",
+    "email": "isla35@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-36",
+    "name": "Jack Simmons",
+    "email": "jack36@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-37",
+    "name": "Katie Foster",
+    "email": "katie37@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-38",
+    "name": "Liam Patterson",
+    "email": "liam38@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-39",
+    "name": "Mia Perry",
+    "email": "mia39@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-40",
+    "name": "Noah Butler",
+    "email": "noah40@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-41",
+    "name": "Olivia Barnes",
+    "email": "olivia41@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-42",
+    "name": "Peter Powell",
+    "email": "peter42@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-43",
+    "name": "Queen Ryan",
+    "email": "queen43@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-44",
+    "name": "Ronald Bell",
+    "email": "ronald44@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-45",
+    "name": "Sara Cox",
+    "email": "sara45@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-46",
+    "name": "Thomas Ward",
+    "email": "thomas46@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-47",
+    "name": "Ursula Torres",
+    "email": "ursula47@example.com",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "customer-48",
+    "name": "Victor Long",
+    "email": "victor48@example.com",
+    "status": "SUSPENDED"
+  },
+  {
+    "id": "customer-49",
+    "name": "Wanda Reyes",
+    "email": "wanda49@example.com",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "customer-50",
+    "name": "Xena Jenkins",
+    "email": "xena50@example.com",
+    "status": "INACTIVE"
+  }
+]

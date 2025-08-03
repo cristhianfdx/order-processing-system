@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: order-worker
+
+  data:
+    mongodb:
+      uri: mongodb://mongo:27017/orders_db
+
+    redis:
+      host: redis
+      port: 6379
+      timeout: 6000
+
+  kafka:
+    bootstrap-servers: kafka:9092
+    consumer:
+      group-id: order-processor-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      auto-offset-reset: earliest
+    admin:
+      auto-create: true
+
+external:
+  api:
+    customer: http://go-api:3000/api/customers
+    product: http://go-api:3000/api/products
+
+app:
+  retry:
+    max-attempts: 3
+    initial-interval-ms: 1000
+    multiplier: 2.0
