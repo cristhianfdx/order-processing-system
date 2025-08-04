@@ -39,7 +39,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Java tests using Dockerfile.build
-        run: docker build -f Dockerfile.build .
+        run: docker build -f orderworker/Dockerfile.build .
 
   test-go:
     needs: validate-docker-compose
