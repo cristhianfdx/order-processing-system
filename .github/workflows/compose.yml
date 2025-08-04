@@ -14,13 +14,21 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build containers
-        run: docker-compose build
+        run: docker compose build
 
       - name: Start containers
-        run: docker-compose up -d
+        run: docker compose up -d
 
-      - name: Check running containers
-        run: docker ps
+      - name: Wait for services to be ready
+        run: sleep 10
+
+      - name: Show running containers
+        run: docker compose ps
+
+      - name: Show logs (opcional para debug)
+        run: docker compose logs
 
       - name: Shutdown
-        run: docker-compose down
+        if: always()
+        run: docker compose down
+
