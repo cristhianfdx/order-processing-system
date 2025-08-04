@@ -96,7 +96,7 @@ services:
 
   java-api:
     build:
-      context: ./orderworker/Dockerfile
+      context: ./orderworker
     container_name: java-api
     ports:
       - "8080:8080"
