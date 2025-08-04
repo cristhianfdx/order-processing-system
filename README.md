@@ -168,21 +168,8 @@ You can use these tools to inspect databases, queues, and messages while the sys
 
 ## 🧪 Unit Tests
 
-**Java Worker**
-
-```bash
-
-[INFO] Results:
-[INFO]
-[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0
-[INFO]
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.845 s
-[INFO] Finished at: 2025-08-02T22:38:36-05:00
-[INFO] ------------------------------------------------------------------------
-```
+### CI Workflow
+Every time a push or pull request is made to the main branch (or any branch, depending on your config), the CI pipeline runs the unit tests using Maven and Java 21 (Java-Worker) and Go API.
 
 ## 📄 Evidence of Functionality
 
