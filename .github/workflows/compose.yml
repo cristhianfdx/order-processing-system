@@ -1,0 +1,26 @@
+name: Docker Compose Validation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-compose:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build containers
+        run: docker-compose build
+
+      - name: Start containers
+        run: docker-compose up -d
+
+      - name: Check running containers
+        run: docker ps
+
+      - name: Shutdown
+        run: docker-compose down
