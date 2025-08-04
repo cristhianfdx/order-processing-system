@@ -1,0 +1,65 @@
+name: Java + Docker Compose + Go
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-docker-compose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build containers
+        run: docker compose build
+
+      - name: Start containers
+        run: docker compose up -d
+
+      - name: Wait for services to be ready
+        run: sleep 10
+
+      - name: Show running containers
+        run: docker compose ps
+
+      - name: Show logs
+        run: docker compose logs
+
+      - name: Shutdown
+        if: always()
+        run: docker compose down
+
+  build-and-test-java:
+    needs: validate-docker-compose
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run Java tests using Dockerfile.build
+        run: docker build -f Dockerfile.build .
+
+  test-go:
+    needs: validate-docker-compose
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build containers
+        run: docker compose build
+
+      - name: Start containers
+        run: docker compose up -d
+
+      - name: Wait for Go service
+        run: sleep 5
+
+      - name: Run Go tests inside go-api container
+        run: docker compose exec -T go-api go test ./...
+
+      - name: Shutdown
+        if: always()
+        run: docker compose down
